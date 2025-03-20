@@ -1,0 +1,30 @@
+html, body, div {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.view-container {
+  position: relative;
+  width: 200px;
+  height: 400px;
+  background: green;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.view-container__box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(45deg, red, blue);
+  width: 300px;
+  height: 200px;
+}
+
+.view-container__debugger {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
